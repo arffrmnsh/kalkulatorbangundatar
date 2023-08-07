@@ -72,6 +72,7 @@ def main():
         selected = option_menu(
             "kalkulator bangun datar",
             [
+                "Home",
                 "Persegi",
                 "Persegi Panjang",
                 "Jajar Genjang",
