@@ -80,10 +80,21 @@ def main():
                 "Trapesium",
                 "Lingkaran",
             ],
+            icons=[
+                "house",
+            ],
+            menu_icon="cast",
             default_index=0,
         )
 
     # halaman 1
+    if selected == "Home":
+        st.title("Kalkulator Bangun Datar")
+        st.image("mtk.png")
+        st.write(
+            "Kalkulator bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan kalkulator ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, kalkulator ini sangat membantu dalam menyelesaikan berbagai masalah matematika dan aplikasi praktis."
+        )
+        
     if selected == "Persegi":
         with col1:
             st.title("Hitung luas")
@@ -105,7 +116,7 @@ def main():
                 keliling = 4 * sisi
                 st.write("keliling persegi adalah = ", keliling)
                 st.success(f"keliling persegi adalah = {keliling}")
-                st.snow()
+                st.balloons()
 
     # halaman 2
     elif selected == "Persegi Panjang":
@@ -119,6 +130,7 @@ def main():
                 luas = panjang * lebar
                 st.write("luas persegi panjang adalah = ", luas)
                 st.success(f"luas persegi panjang adalah = {luas}")
+                st.balloons()
 
         with col2:
             st.title("Hitung keliling")
@@ -130,6 +142,7 @@ def main():
                 keliling = 2 * panjang_keliling + 2 * lebar_keliling
                 st.write("keliling persegi panjang adalah = ", keliling)
                 st.success(f"keliling persegi panjang adalah = {keliling}")
+                st.balloons()
 
     # halaman 3
     elif selected == "Jajar Genjang":
