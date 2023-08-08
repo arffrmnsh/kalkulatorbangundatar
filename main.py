@@ -94,16 +94,18 @@ def main():
         st.title("Selamat Datang di Aplikasi Bangun Datar")
         st.image("mtk.png")
         st.write(
-            "Aplikasi bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan aplikasi ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, aplikasi ini sangat membantu dalam menyelesaikan berbagai masalah matematika."
+            "Aplikasi bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan aplikasi ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, aplikasi ini sangat membantu dalam menyelesaikan berbagai masalah matematika.''Untuk membuka kalkulatornya tekan slider bar bagian pojok kiri atas''."
         )
         st.write(
-            "''Sebelum meraih bantuan dari aplikasi bangun datar kami, mari tantang diri Anda dengan meracik solusi melalui rumus yang telah kami berikan di ''TOMBOL MULAI'' bagian bawah. Kemahiran Anda adalah kunci menuju pemahaman yang mendalam!''"
+            "''Sebelum meraih bantuan dari aplikasi bangun datar kami, mari tantang diri Anda dengan meracik solusi permasalahan Anda sendiri melalui rumus yang telah kami berikan di ''TOMBOL MULAI'' bagian bawah. Kemahiran Anda adalah kunci menuju pemahaman yang mendalam!''"
         )
         st.markdown(
             "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
         )
         if st.button("Mulai"):
             selected = "Rumus"  # Mengganti halaman ke "Rumus"
+        st.markdown(
+            "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
 
     # halaman 2 (Rumus)
     if selected == "Rumus":
