@@ -96,6 +96,7 @@ def main():
         st.write(
             "Kalkulator bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan kalkulator ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, kalkulator ini sangat membantu dalam menyelesaikan berbagai masalah matematika dan aplikasi praktis."
         )
+        st.text("craeted by arffrmnsh.| © 2023 Aplikasi Streamlit")
         
     if selected == "Persegi":
         with col1:
