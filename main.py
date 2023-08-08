@@ -94,10 +94,10 @@ def main():
         st.title("Kalkulator Bangun Datar")
         st.image("mtk.png")
         st.write(
-            "Kalkulator bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan kalkulator ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, kalkulator ini sangat membantu dalam menyelesaikan berbagai masalah matematika dan aplikasi praktis."
+            "Kalkulator bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan kalkulator ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, kalkulator ini sangat membantu dalam menyelesaikan berbagai masalah matematika."
         )
         st.markdown(
-            "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023 Aplikasi Streamlit"
+            "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
         )
         
     if selected == "Persegi":
