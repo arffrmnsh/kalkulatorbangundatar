@@ -94,7 +94,7 @@ def main():
         st.title("Selamat Datang di Aplikasi Bangun Datar")
         st.image("mtk.png")
         st.write(
-            "Kalkulator bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan kalkulator ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, kalkulator ini sangat membantu dalam menyelesaikan berbagai masalah matematika."
+            "Aplikasi bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan aplikasi ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, aplikasi ini sangat membantu dalam menyelesaikan berbagai masalah matematika."
         )
         st.write(
             "''Sebelum meraih bantuan dari aplikasi bangun datar kami, mari tantang diri Anda dengan meracik solusi melalui rumus yang telah kami berikan di ''TOMBOL MULAI'' bagian bawah. Kemahiran Anda adalah kunci menuju pemahaman yang mendalam!''"
