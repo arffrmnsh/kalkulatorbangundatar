@@ -103,7 +103,7 @@ def main():
             "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
         )
         if st.button("Mulai"):
-            selected = "Rumus"  # Mengganti halaman ke "Rumus"
+            selected = "Rumus"  # Mengganti halaman ker "Rumus"
         st.markdown(
             "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
 
