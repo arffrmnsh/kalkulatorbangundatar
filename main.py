@@ -103,9 +103,7 @@ def main():
             "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
         )
         if st.button("Mulai"):
-            selected = "Rumus"  # Mengganti halaman ker "Rumus"
-        st.markdown(
-            "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
+            selected = "Rumus"  # Mengganti halaman ke "Rumus"
 
     # halaman 2 (Rumus)
     if selected == "Rumus":
@@ -120,7 +118,7 @@ def main():
             if hitung:
                 luas = sisi * sisi
                 st.write("luas persegi adalah = ", luas)
-                st.success(f"luas persegi adalah = {luas}")
+                st.success(f"luas persegi adalh = {luas}")
                 st.balloons()
 
         with col2:
