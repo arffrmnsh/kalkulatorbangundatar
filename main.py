@@ -97,7 +97,7 @@ def main():
             "Aplikasi bangun datar adalah alat yang sangat berguna dalam dunia geometri. Dengan menggunakan aplikasi ini, Anda dapat dengan cepat dan akurat menghitung berbagai parameter dari berbagai bentuk geometris, seperti persegi, segitiga, lingkaran, dan lain-lain. Dengan kemampuan untuk menghitung luas, keliling, dan beberapa parameter lainnya, aplikasi ini sangat membantu dalam menyelesaikan berbagai masalah matematika.:blue[Untuk membuka kalkulatornya tekan slider bar bagian pojok kiri atas]."
         )
         st.write(
-            "''Sebelum meraih bantuan dari aplikasi bangun datar kami, mari tantang diri Anda dengan meracik solusi permasalahan diri sendiri melalui rumus yang telah kami berikan di :red[TOMBOL MULAI] bagian bawah. Kemahiran Anda adalah kunci menuju pemahaman yang mendalam!''"
+            "''Sebelum meraih bantuan dari aplikasi bangun datar kami, mari tantang diri Anda dengan meracik solusi permasalahan diri sendiri melalui rumus yang telah kami berikan di :red[TOMBOL MULAI] bagian bawah. Kemahiran Anda adalah kunci menuju pemahaman yang mendalam!.''"
         )
         st.markdown(
             "Created by [arffrmnsh](https://www.instagram.com/ariffirmnsh/). | © 2023"
